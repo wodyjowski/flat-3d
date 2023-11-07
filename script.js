@@ -9,7 +9,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
-const light = new THREE.AmbientLight( 0x404040, 20 ); // soft white light
+const light = new THREE.AmbientLight( 0x404040, 50 ); // soft white light
 scene.add( light );
 
 const controls = new OrbitControls( camera, renderer.domElement );
